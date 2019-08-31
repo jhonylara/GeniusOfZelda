@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jhonylara.geniusofzelda.TelaInicial">
+    <item
+        android:id="@+id/menuRanking"
+        android:title="Ranking"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuAluno"
+        android:title="Student"
+        app:showAsAction="always" />
+</menu>

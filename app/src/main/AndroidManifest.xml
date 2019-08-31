@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jhonylara.geniusofzelda">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".TelaInicial"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ranking"
+            android:label="@string/title_activity_ranking"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Play"
+            android:label="@string/title_activity_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GameOver"
+            android:label="@string/title_activity_game_over"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Final"
+            android:label="@string/title_activity_final"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
